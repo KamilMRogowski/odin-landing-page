@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  padding: 2vh 20vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 1.125rem;
+}
+
+.nav__logo {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Intro */
+
+.intro {
+  background-color: #1f2937;
+  padding: 10vh 20vw;
+  display: flex;
+  gap: 5vw;
+}
+
+.intro__content {
+  flex: 1;
+}
+
+.intro__content__header {
+  color: #f9faf8;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+.intro__content__text {
+  color: #e5e7eb;
+}
+
+.intro__content__button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  color: white;
+  box-shadow: none;
+}
+
+.intro__image {
+  background-color: #e5e7eba9;
+  flex: 1;
+  display: flex;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Information */
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 5vh 0;
+}
+
+.info__header {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.info__card {
+  display: flex;
+  flex-direction: column;
+  width: 11rem;
+}
+
+.info__card__image {
+  border: 0.3rem solid #3882f6;
+  border-radius: 0.5rem;
+  height: 11rem;
+}
+
+.info__card__text {
+  text-align: center;
+}
+
+/* Quote */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 10vh 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote__text {
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote__author {
+  align-self: flex-end;
+  font-weight: bold;
+  font-weight: 1.25rem;
+}
+
+/* Call to action */
+
+.call-to-action {
+  background-color: #3882f6;
+  margin: 10vh 20vw;
+  padding: 3rem 10rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action__button {
+  align-self: center;
+  padding: 0.5rem 2rem;
+  border: 0.2rem solid #f9faf8;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.call-to-action__text__header {
+  color: #f9faf8;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.call-to-action__text__paragraph {
+  color: #f9faf8;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 2rem;
+}
+
+.footer_text {
+  color: #e5e7eb;
+}
